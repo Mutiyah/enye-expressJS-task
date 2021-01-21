@@ -1,0 +1,12 @@
+{
+    "result" : {
+        "base": "CZK",
+        "date" : "Date.now()",
+        "date1" : "new Date()",
+        "rate": {
+            "EUR": 0.0377244605,
+            "GBP": 0.033795458,
+            "USD": 0.044824204
+        }
+    }
+}
