@@ -5,7 +5,7 @@ const app = express();
 
 //Custom api root
 app.get('/', (req, res) =>{
-    res.send(res);
+    // res.send(res);
 })
 
 //Custom api root following api standard/convention
