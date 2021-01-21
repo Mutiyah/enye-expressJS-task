@@ -5,12 +5,13 @@ const app = express();
 
 //Custom api root
 app.get('/', (req, res) =>{
-    // res.send(res);
+    res.status(404).end()
 })
 
 //Custom api root following api standard/convention
 app.get('/api', (req, res) =>{
-    res.send(res);
+    res.status(404).end()
+    // res.send(res);
 })
 
 
